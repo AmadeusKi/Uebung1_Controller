@@ -33,6 +33,8 @@ public class Test1 implements CarSensorInput, CarMotorOutput{
 
         testController.chkSensor(Sensor.FL, 5);
 
+        System.out.println(testController.sensorMessWerte.get(Sensor.FL));
+
 
 
     }

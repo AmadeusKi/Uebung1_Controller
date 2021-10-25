@@ -20,8 +20,8 @@ public class Controller{
         sensorMessWerte.put(CarSensorInput.Sensor.BL, 100d);
         sensorMessWerte.put(CarSensorInput.Sensor.BR, 100d);
 
-        CarSensor Sensor = new CarSensor(this);
-        Sensor.startThreads();
+
+
 
 
 
